@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Ramadan Kareem | Animated Website</title>
+</head>
+
+<body>
+    <section>
+        <img src="images/mosque.jpg" alt="" class="mosque">
+        <header>
+            <a href="index.html" class="logo">Ramadan</a>
+            <div class="toggle"> </div>
+            <ul class="navigation">
+                <li><a href="#" style="--i:1;" class="active">Home</a></li>
+                <li><a href="#" style="--i:2;">About</a></li>
+                <li><a href="#" style="--i:3;">Calender</a></li>
+                <li><a href="#" style="--i:4;">Blog</a></li>
+                <li><a href="#" style="--i:5;">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Happy Ramadan Kareem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium voluptates
+                    ducimus, ipsum eius ratione. Cupiditate laborum eos necessitatibus distinctio vitae placeat nulla
+                    ipsum ipsam atque itaque, iure voluptates? Sint odio sit dolorem veniam error soluta nam, eaque,
+                    sapiente unde dolore beatae natus voluptas, deleniti aut totam omnis saepe recusandae ea ducimus.
+                    Eum voluptatum facilis officia voluptas magni temporibus, voluptatem enim fugiat voluptate harum
+                    quidem recusandae earum quo atque exercitationem aut. Unde autem nostrum facere quisquam suscipit?
+                    Fugit, sequi vel voluptatem nam aperiam corrupti, reprehenderit quas voluptate dicta dolorum facilis
+                    nulla repellendus temporibus atque repudiandae vero? Nam iste architecto ea.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <ul class="social">
+            <li><a href="#" style="--i:12;"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="#" style="--i:13;"><img src="images/instagram.png" alt=""></a></li>
+            <li><a href="#" style="--i:14;"><img src="images/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+</body>
+
+
+
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const navigation = document.querySelector('.navigation');
+    menuToggle.onclick = function(){
+        menuToggle.classList.toggle('active')
+        navigation.classList.toggle('active')
+    }
+</script>
+
+
+
+
+
+</html>
